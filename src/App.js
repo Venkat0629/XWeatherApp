@@ -50,7 +50,7 @@ function App() {
       ) : (
         <div className="display">
           {data.map((card, index) => (
-            <div key={index} className="weather-cardss">
+            <div key={index} className="weather-cards">
               <h4>{card.title}</h4>
               <div>{card.value}</div>
             </div>
