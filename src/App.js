@@ -48,7 +48,7 @@ function App() {
       {value !== "" && data.length === 0 ? (
         <p>Loading data...</p>
       ) : (
-        <div className="display">
+        <div className="weather-cards">
           {data.map((card, index) => (
             <div key={index} className="weather-card">
               <h4>{card.title}</h4>
