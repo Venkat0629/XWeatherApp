@@ -26,6 +26,7 @@ function App() {
       setData(weatherData);
     } catch (error) {
       console.error(error);
+      setValue("")
       setData([]);
       alert("Failed to fetch weather data");
     }
