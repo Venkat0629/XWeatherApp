@@ -16,6 +16,7 @@
   gap: 15px;
 }
 .button {
+  cursor: pointer;
   padding: 10px 20px;
   background-color: rgb(58, 180, 58);
   border: 0px;
